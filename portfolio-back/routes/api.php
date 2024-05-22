@@ -18,7 +18,8 @@ use App\Http\Controllers\SlideController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\MusicController;
 
-Route::get('/slides', [SlideController::class, 'index']);
-Route::get('/projects', [ProjectController::class, 'index']);
+Route::get('/slides', [SlideController::class, 'getAllSlides']);
+Route::get('/projects', [ProjectController::class, 'getAllProjects']);
 Route::get('/music', [MusicController::class, 'getAllMusic']);
 Route::get('/audio/{filename}', [MusicController::class, 'serveAudio']);
+
