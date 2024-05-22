@@ -22,4 +22,3 @@ Route::get('/slides', [SlideController::class, 'getAllSlides']);
 Route::get('/projects', [ProjectController::class, 'getAllProjects']);
 Route::get('/music', [MusicController::class, 'getAllMusic']);
 Route::get('/audio/{filename}', [MusicController::class, 'serveAudio']);
-
