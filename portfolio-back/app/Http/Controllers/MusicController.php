@@ -33,11 +33,11 @@ class MusicController extends Controller
                 "title" => "Nemo - Nightwish (cover guitare)",
                 "filename" => "nemo.mp3",
             ],
-            // [
-            //     "id" => 6,
-            //     "title" => "Silvera - Gojira (cover guitare)",
-            //     "filename" => "gojira_silvera.mp3",
-            // ],
+            [
+                "id" => 6,
+                "title" => "Silvera - Gojira (cover guitare)",
+                "filename" => "gojira_silvera.mp3",
+            ],
         ];
 
     public function getAllMusic()
