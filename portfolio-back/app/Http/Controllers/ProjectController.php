@@ -89,6 +89,17 @@ class ProjectController extends Controller
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
             ],
+            [
+                'id' => 9,
+                'title' => 'Argent Bank',
+                'desc' => [
+                    'Dans ce projet j\'ai pu réaliser l\'intégration d\'un state global grâce à l\'utilisation de Redux couplée à React',
+                    'J\'ai également dù écrire le fichier YAML permettant de définir les Endpoints dont j\'aurais besoin afin de continuer le projet',
+                ],
+                'url' => 'https://github.com/Le-Melfu/argentBank-appFront',
+                'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
+                'pinAlt' => 'Logo OpenClassRooms',
+            ],
         ];
 
         return response()->json($projects);
