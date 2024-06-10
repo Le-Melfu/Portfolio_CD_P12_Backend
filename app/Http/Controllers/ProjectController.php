@@ -17,6 +17,16 @@ class ProjectController extends Controller
                 'imageAlt' => 'Visuel du site',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/HTML.png'),
+                        'alt' => 'HTML'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/CSS.png'),
+                        'alt' => 'CSS'
+                    ],
+                ]
             ],
             [
                 'id' => 2,
@@ -27,6 +37,16 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/booki-starter-code',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/HTML.png'),
+                        'alt' => 'HTML'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/CSS.png'),
+                        'alt' => 'CSS'
+                    ],
+                ]
             ],
             [
                 'id' => 3,
@@ -37,6 +57,16 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/Site_OhMyFood',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/HTML.png'),
+                        'alt' => 'HTML'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/CSS.png'),
+                        'alt' => 'CSS'
+                    ],
+                ]
             ],
             [
                 'id' => 4,
@@ -47,6 +77,20 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/Print-it-JS',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/HTML.png'),
+                        'alt' => 'HTML'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/CSS.png'),
+                        'alt' => 'CSS'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/JS.png'),
+                        'alt' => 'Javascript'
+                    ],
+                ]
             ],
             [
                 'id' => 5,
@@ -57,6 +101,20 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/Portfolio-architecte-sophie-bluel',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/HTML.png'),
+                        'alt' => 'HTML'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/CSS.png'),
+                        'alt' => 'CSS'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/JS.png'),
+                        'alt' => 'Javascript'
+                    ],
+                ]
             ],
             [
                 'id' => 6,
@@ -67,6 +125,12 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/Kasa',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/REACT.png'),
+                        'alt' => 'ReactJS'
+                    ],
+                ]
             ],
             [
                 'id' => 7,
@@ -77,6 +141,20 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/ninacarducci.github.io',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/HTML.png'),
+                        'alt' => 'HTML'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/CSS.png'),
+                        'alt' => 'CSS'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/JS.png'),
+                        'alt' => 'Javascript'
+                    ],
+                ]
             ],
             [
                 'id' => 8,
@@ -88,6 +166,13 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/Debuggez-une-application-React.JS',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/REACT.png'),
+                        'alt' => 'ReactJS'
+                    ],
+                ]
+
             ],
             [
                 'id' => 9,
@@ -99,6 +184,38 @@ class ProjectController extends Controller
                 'url' => 'https://github.com/Le-Melfu/argentBank-appFront',
                 'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
                 'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/REACT.png'),
+                        'alt' => 'ReactJS'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/REDUX.png'),
+                        'alt' => 'Redux Toolkit'
+                    ],
+                ]
+            ],
+            [
+                'id' => 10,
+                'title' => 'Portfolio',
+                'desc' => [
+                    'Dans ce projet j\'ai pu réaliser l\'ensemble du site sur lequel vous naviguez actuellement',
+                    'Cela m\'a permis de développer ce projet en toute autonomie et de choisir les technologies adaptées à mes besoins',
+                    'React était tout indiqué dans le côté FrontEnd mais étant musicien il m\'a fallu trouver une solution pour les fichiers audio de la page musique',
+                    'J\'ai donc décidé d\'utiliser Laravel afin de créer une petite API qui me permettrait de servir l\'audio dynamiquement. Celle ci me permet également de servir dynamiquement la liste de mes projets.'
+                ],
+                'pin' => asset('storage/media/img/Logo_OpenClassrooms.png'),
+                'pinAlt' => 'Logo OpenClassRooms',
+                'tech' => [
+                    [
+                        'img' => asset('storage/media/img/REACT.png'),
+                        'alt' => 'ReactJS'
+                    ],
+                    [
+                        'img' => asset('storage/media/img/LARAVEL.png'),
+                        'alt' => 'Laravel'
+                    ],
+                ]
             ],
         ];
 
